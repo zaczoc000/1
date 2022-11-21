@@ -798,7 +798,7 @@ end)
 
 serverHopTab:Toggle("Re-Execute", "Executes the script after server hop\nTurn this off if you use autoexec", getgenv().settings.reex, function(t)
     if t and not exd then
-        queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/zaczoc000/1/main/new87.lua?token=GHSAT0AAAAAAB3PMZK4MQ4VVUF3AN7B5DLOY337PSQ'))()")
+        queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/zaczoc000/1/main/new87.lua?token=GHSAT0AAAAAAB3PMZK52MVUMOLMIPHMLGA2Y337UCQ'))()")
         exd = true
     end
     if settingsLock then return end
